@@ -72,7 +72,7 @@ const ExamItem: React.FC<{ exam: Exam; isOpen: boolean; onClick: () => void; ind
         </div>
         <div className="flex items-center space-x-2">
           <Link 
-            to="/login"
+            to="/agendar-exame"
             className="btn-modern bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300 mr-2"
             onClick={(e) => e.stopPropagation()}
           >
@@ -188,7 +188,7 @@ const Exames: React.FC = () => {
                 💬 Falar com Especialista
               </Link>
               <Link 
-                to="/login"
+                to="/agendar-exame"
                 className="btn-modern bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 🩺 Agendar Exame

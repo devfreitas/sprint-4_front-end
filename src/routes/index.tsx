@@ -14,6 +14,8 @@ import Faq from '../pages/Faq';
 import Sobre from '../pages/Sobre';
 import Integrantes from '../pages/Integrantes';
 import AdminPanel from '../pages/AdminPanel';
+import AgendarConsulta from '../pages/AgendarConsulta';
+import AgendarExame from '../pages/AgendarExame';
 
 const AppRoutes: React.FC = () => {
   return (
@@ -36,6 +38,8 @@ const AppRoutes: React.FC = () => {
                 <Route path="/login" element={<Login />} />
                 <Route path="/consultas" element={<Consultas />} />
                 <Route path="/exames" element={<Exames />} />
+                <Route path="/agendar-consulta" element={<AgendarConsulta />} />
+                <Route path="/agendar-exame" element={<AgendarExame />} />
                 <Route path="/cadastro" element={<Cadastro />} />
                 <Route path="/contato" element={<Contato />} />
                 <Route path="/faq" element={<Faq />} />

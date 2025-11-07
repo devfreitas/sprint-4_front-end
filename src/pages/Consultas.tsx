@@ -186,7 +186,7 @@ const Consultas: React.FC = () => {
                 <div className="text-sm font-semibold text-slate-700">{specialty.nextAvailable}</div>
               </div>
               <Link 
-                to="/login"
+                to="/agendar-consulta"
                 className="btn-modern w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 text-center block"
               >
                 Agendar Consulta
